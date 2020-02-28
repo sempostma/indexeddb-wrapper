@@ -4,6 +4,15 @@
   "description": "Creates a key value wrapper around IndexedDB.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "homepage": "https://github.com/sempostma/indexeddb-wrapper#readme",
+  "repository": {
+    "url": "https://github.com/sempostma/indexeddb-wrapper.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/sempostma/indexeddb-wrapper/issues",
+    "email": "indexeddb-wrapper@esstudio.nl"
+  },
   "files": [
     "dist/",
     "LICENSE"
