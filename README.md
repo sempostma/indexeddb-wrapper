@@ -13,7 +13,7 @@ import indexeddbWrapper from 'indexeddb-wrapper'
 
 const { myStore } = createIndexeDBWrapper({ stores: ['myStore'] }) 
 
-store.set('key', 'value')
+myStore.set('key', 'value')
     .then(() => store.get('key'))
     .then(console.log)
 ```
